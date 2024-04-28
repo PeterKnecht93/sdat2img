@@ -120,11 +120,8 @@ if __name__ == '__main__':
         TRANSFER_LIST_FILE = str(sys.argv[1])
         NEW_DATA_FILE = str(sys.argv[2])
     except IndexError:
-        print('\nUsage: sdat2img.py <transfer_list> <system_new_file> [system_img]\n')
-        print('    <transfer_list>: transfer list file')
-        print('    <system_new_file>: system new dat file')
-        print('    [system_img]: output system image\n\n')
-        print('Visit xda thread for more information.\n')
+        print('Usage: sdat2img.py <transfer_list> <partition_new_file> [output_img]')
+        print('Error: the following arguments are required: transfer_list partition_new_file\n')
         sys.exit()
 
     try:
