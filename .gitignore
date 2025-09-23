@@ -1,0 +1,4 @@
+*.transfer.list
+*.dat*
+*.img
+*.pyc
